@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <strng.h>
+#include <string.h>
 /**
 * main - prints the alphabet without q and e
 * Return: Always 0

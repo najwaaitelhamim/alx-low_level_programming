@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
 * puts_half - a function that prints half of a string character
@@ -14,9 +15,15 @@ while (*s != '\0')
 c++;
 s++;
 }
-t = c - 1;
-for (i = (t / 2); i < t; i++)
+t = (c / 2);
+if ((c % 2) == 1)
+{
+t = ((c + 1) / 2);
+}
+for (i = t; i < c; i++)
 {
 _putchar(str[i]);
 }
+_putchar('\n');
 }
+

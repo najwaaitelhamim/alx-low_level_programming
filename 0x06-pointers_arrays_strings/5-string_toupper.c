@@ -1,0 +1,17 @@
+#include "main.h"
+/**
+* string_toupper - a function that changes lowercase
+* @n: integer
+* Return: string
+*/
+char *string_toupper(char *n)
+{
+while (n[i] != '\0')
+{
+if (n[i] >= 'a' && n[i] <= 'z')
+n[i] = n[i] - 32;
+i++;
+}
+return (n);
+}
+

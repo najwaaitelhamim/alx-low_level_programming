@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _memcpy -  a function that copies memory area.
+* _memcpy - a function that copies memory area.
 * @dest: char
 * @src: char
 * @n: integer

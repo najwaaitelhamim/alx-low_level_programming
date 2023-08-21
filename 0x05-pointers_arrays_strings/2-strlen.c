@@ -10,7 +10,7 @@ int l = 0;
 while (*s != '\0')
 {
 l++;
-S++;
+s++;
 }
 return (l);
 }

@@ -17,7 +17,7 @@ i--;
 for (j = 0; j < i; j++, i--)
 temp = *(n + j);
 *(n + j) = *(n + i);
-*(n + 1) = temp;
+*(n + i) = temp;
 }
 }
 /**

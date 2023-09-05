@@ -22,6 +22,7 @@ if (m[x] == NULL)
 {
 for (; x >= 0; x--)
 free(m[x]);
+free(m);
 return (NULL);
 }
 }
@@ -30,5 +31,5 @@ for (x = 0; x < height; x++)
 for (y = 0; y < width; y++)
 m[x][y] = 0;
 }
-return (mee);
+return (m);
 }

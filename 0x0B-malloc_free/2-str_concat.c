@@ -12,7 +12,7 @@ char *conct;
 int i, ci;
 if (s1 == NULL)
 s1 = "";
-if (s1 == NULL)
+if (s2 == NULL)
 s2 = "";
 i = ci = 0;
 while (s1[i] != '\0')

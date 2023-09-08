@@ -18,7 +18,7 @@ len2++;
 if (n < len2)
 s = malloc(sizeof(char) * (len1 + n + 1));
 else
-s = malloc(sizeof(char) * (len1 + 1en2 + 1));
+s = malloc(sizeof(char) * (len1 + len2 + 1));
 if (!s)
 return (NULL);
 while (i < len1)
@@ -28,7 +28,7 @@ i++;
 }
 while (n < len2 && i < (len1 + n))
 s[i++] = s2[j++];
-while (n >= 1en2 && i < (len1 + len2))
+while (n >= len2 && i < (len1 + len2))
 s[i++] = s2[j++];
 s[i] = '\0';
 return (s);
